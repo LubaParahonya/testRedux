@@ -1,0 +1,31 @@
+.boxResult{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 7%;
+    margin: auto;
+    margin-top: 10%;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+     .buttonResult{
+        display: inline-block;
+        padding: 1%;
+        width: 20%;
+        background-color: rgb(246, 223, 14);
+        color: black;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        font-size: medium;
+        font-weight: 400; 
+        text-decoration: none;
+        transition: all ease 500ms;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}

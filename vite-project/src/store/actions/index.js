@@ -1,0 +1,2 @@
+export const FILTER_GIT = 'FILTER_GIT';
+export const UPDATE_LIST_CARD = 'UPDATE_LIST_CARD'

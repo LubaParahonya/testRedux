@@ -1,0 +1,34 @@
+.boxmain{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 5%;
+    margin: auto;
+    margin-top: 6%;
+    height: 600px;
+    border-radius: 10%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    .buttonStart{
+        display: inline-block;
+        padding: 1%;
+        width: 50%;
+        background-color: rgb(246, 223, 14);
+        color: black;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        font-size: x-large;
+        font-weight: 700; 
+        text-decoration: none;
+        transition: all ease 500ms;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+    .image{
+        width: 50%;
+    }
+}
